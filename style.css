@@ -248,7 +248,10 @@ body {
   width: 43%;
   margin: 12px 0;
 }
-
+.see-project:hover {
+  background-color: var(--primary-b-500, #396DF2);
+  color: white;
+}
 /* About section */
 .about-section {
   padding: 114px 24px;
