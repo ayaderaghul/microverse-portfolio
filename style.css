@@ -128,6 +128,125 @@ body {
   padding-top: 4px;
 }
 
+.grid-container {
+  display: grid;
+  gap: 88px;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.work-section {
+  padding: 114px 24px;
+}
+
+.card {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px solid var(--neutrals-n-40, #DFE1E6);
+  background: var(--neutrals-n-0, #FFF);
+}
+.card-image {
+  width: 100%;
+}
+.card-image > img {
+  width: 100%;
+  object-fit: cover;
+}
+.project-name {
+  color: var(--neutrals-n-800, #172B4D);
+  font-size: 32px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  width: 100%;
+  margin: 0;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: row wrap;
+  width: 100%;
+}
+.company {
+  color: var(--neutrals-n-600, #344563);
+  font-size: 13px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 0 6px 0 0;
+}
+
+.position,
+.year {
+  color: var(--neutrals-n-100, #7A869A);
+  font-size: 13px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 0 6px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: var(--neutrals-n-50, #C1C7D0);
+  margin: 4px 6px 0;
+}
+.desc {
+  color: var(--neutrals-n-600, #344563);
+  font-size: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.stack {
+  list-style: none;
+  display: flex;
+  flex-direction: row wrap;
+  width: 100%;
+  padding-left: 0;
+  margin-top: 0;
+
+}
+
+.lang {
+  color: var(--primary-b-400, #6070FF);
+  font-size: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background: var(--primary-b-50, #EBEBFF);
+  margin-right: 8px;
+}
+
+.see-project {
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid var(--primary-b-400, #6070FF);
+  color: var(--primary-b-500, #396DF2);
+  text-align: center;
+  font-size: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  width: 43%;
+  margin: 12px 0;
+}
+
 @media screen and (min-width >= 768px) {
   .bar,
   .menu {
