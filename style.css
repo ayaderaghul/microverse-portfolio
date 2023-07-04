@@ -1,13 +1,18 @@
+:root {
+  --primary-b-400: #6070ff;
+  --primary-b-300: #7f8cff;
+  --neutrals-n-800: #172b4d;
+  --neutrals-n-600: #344563;
+  --neutrals-n-10: #f7f7f9;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: white;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
   margin: 0;
-  background-color: #F7F7F9;
+  background-color: var(--neutrals-n-10, #f7f7f9);
 }
 
 .intro-section {
@@ -30,7 +35,7 @@ body {
   color: #000;
   text-align: center;
   font-size: 14px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -45,17 +50,17 @@ body {
 }
 
 .mylogo {
-  color: var(--primary-b-400, #6070FF);
+  color: var(--primary-b-400, #6070ff);
   text-align: center;
   font-size: 18px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
 }
 
 .menu {
-  color: #6070FF;
+  color: var(--primary-b-400, #6070ff);
 }
 
 .menu-items {
@@ -78,9 +83,9 @@ body {
 }
 
 .header {
-  color: var(--neutrals-n-800, #172B4D);
+  color: var(--neutrals-n-800, #172b4d);
   font-size: 40px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 52px; 
@@ -89,16 +94,16 @@ body {
 .paragraph {
   color: var(--neutrals-n-600, #344563);
   font-size: 16px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; 
 }
 
 .connect {
-  color: var(--primary-b-300, #7F8CFF);
+  color: var(--primary-b-300, #7f8cff);
   font-size: 16px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
@@ -124,7 +129,8 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .bar, .menu {
+  .bar, 
+  .menu {
     display: none;
   }
 
@@ -133,7 +139,7 @@ body {
   }
 
   .mylogo {
-    color: var(--primary-b-400, #6070FF);
+    color: var(--primary-b-400, #6070ff);
     text-align: center;
     font-size: 18px;
     font-family: Poppins;
