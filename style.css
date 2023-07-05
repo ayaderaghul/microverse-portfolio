@@ -1,0 +1,221 @@
+:root {
+  --primary-b-400: #6070ff;
+  --primary-b-300: #7f8cff;
+  --neutrals-n-800: #172b4d;
+  --neutrals-n-600: #344563;
+  --neutrals-n-10: #f7f7f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--neutrals-n-10, #f7f7f9);
+}
+
+/* Introduction section - Header */
+.intro-section {
+  background-image: url('./images/Microverse-Student-Project-1/header-background-mobile.png');
+  height: 718px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-between;
+  padding: 16px 21px 12px;
+  width: 100%;
+  height: 44px;
+}
+
+.clock {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+
+.nav-bar {
+  padding: 12px 6%;
+  display: flex;
+  flex-direction: row wrap;
+  height: 48px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.logo:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.menu {
+  color: var(--primary-b-400, #6070ff);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 6%;
+}
+
+.menu-items-container {
+  display: none;
+}
+
+.menu:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.introduction {
+  background-image: url('./images/shapes.png');
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  height: 604px;
+}
+
+.intro-container {
+  padding: 19% 6%;
+}
+
+.header {
+  color: var(--neutrals-n-800, #172b4d);
+  font-size: 40px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.paragraph {
+  color: var(--neutrals-n-600, #344563);
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.connect {
+  color: var(--primary-b-300, #7f8cff);
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row wrap;
+  padding-left: 0;
+}
+
+.icon {
+  padding: 0 8px;
+  list-style: none;
+}
+
+.icon:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.medium {
+  padding-top: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  /* Introduction section - Header */
+  .bar,
+  .menu {
+    display: none;
+  }
+
+  .nav-bar {
+    height: 72px;
+    position: relative;
+  }
+
+  .logo {
+    color: var(--primary-b-400, #6070ff);
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .logo:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .menu-items-container {
+    display: block;
+    position: absolute;
+    right: 6%;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: row wrap;
+  }
+
+  .item {
+    list-style: none;
+    padding: 0 16px;
+    color: var(--neutrals-n-600, #344563);
+    text-align: center;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .item > a {
+    text-decoration: none;
+    color: var(--neutrals-n-600, #344563);
+  }
+
+  .item:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .intro-container {
+    padding: 15% 18%;
+  }
+
+  .intro-section {
+    background-image: url('./images/header\ background\ shape-desktop.png');
+    height: 916px;
+    background-size: 100% 100%;
+  }
+
+  .introduction {
+    height: 846px;
+    background-image: url('./images/Microverse-Student-Project-1 (2)/Header bg.png');
+    background-size: 100% 90%;
+  }
+}
