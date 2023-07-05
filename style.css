@@ -63,6 +63,11 @@ body {
   line-height: 20px;
 }
 
+.logo:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 .menu {
   color: var(--primary-b-400, #6070ff);
   height: 100%;
@@ -77,6 +82,7 @@ body {
 
 .menu:hover {
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .introduction {
@@ -130,6 +136,7 @@ body {
 
 .icon:hover {
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .medium {
@@ -156,6 +163,11 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
+  }
+
+  .logo:hover {
+    opacity: 0.7;
+    cursor: pointer;
   }
 
   .menu-items-container {
@@ -188,6 +200,7 @@ body {
 
   .item:hover {
     opacity: 0.7;
+    cursor: pointer;
   }
 
   .intro-container {
