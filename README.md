@@ -18,7 +18,6 @@
   - [Install](#install)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -40,6 +39,8 @@
 - Navigation bar
 - Introduction section
 - Work section
+- About me section
+- Contact section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,12 +75,6 @@ You can deploy this project as a static page on free servers such as github page
 - GitHub: [@ayaderaghul](https://github.com/ayaderaghul)
 - Twitter: [@ayaderaghul](https://twitter.com/ayaderaghul)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/linh-chi-n-371139180/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- Contact section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
