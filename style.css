@@ -332,6 +332,7 @@ line-height: 20px;
 .contact {
   background-color: white;
   margin-top: -20px;
+  width: 100%;
 }
 .contact-block {
   padding-top: 30px;
@@ -339,6 +340,7 @@ line-height: 20px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 779px;
+  width: 100%;
 }
 .contact-title {
   color: var(--neutrals-n-0, #FFF);
@@ -364,14 +366,18 @@ line-height: 28px;
 padding: -10px 20px;
 margin: 0 20px 35px;
 }
+form {
+  width: 100%;
+}
 input {
+  display: block;
   border-radius: 8px;
 border: 1px solid #CFD8DC;
 background: #FFF;
 height: 48px;
 margin: 10px 24px;
 padding: 0 16px;
-width: 87%;
+height: 48px;
 }
 input::placeholder {
   color: var(--neutral-n-800, #172B4D);
@@ -382,6 +388,7 @@ font-weight: 400;
 line-height: 20px;
 }
 textarea {
+
   border-radius: 8px;
 border: 1px solid #CFD8DC;
 background: #FFF;
@@ -403,7 +410,7 @@ line-height: 20px;
   background-color: white;
   margin-left: 24px;
 }
-@media screen and (min-width >= 768px) {
+@media screen and (min-width: 768px) {
   .bar,
   .menu {
     display: none;
@@ -466,4 +473,16 @@ line-height: 20px;
     background-image: url('./images/Microverse-Student-Project-1 (2)/Header bg.png');
     background-size: 100% 90%;
   }
+
+  /* Contact section */
+  .contact {
+    background-image: url('./images/contact-background-desktop.png');
+    background-repeat: none;
+    background-size: 100% 100%;
+  }
+  .contact-block {
+    background-image: none;
+    padding: 5% 25%;
+  }
+
 }
