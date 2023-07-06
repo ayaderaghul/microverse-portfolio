@@ -17,7 +17,7 @@ body {
 
 /* Introduction section - Header */
 .intro-section {
-  background-image: url('./images/Microverse-Student-Project-1/header-background-mobile.png');
+  background-image: url('./images/mobile-header/header-background-mobile.png');
   height: 718px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -86,7 +86,7 @@ body {
 }
 
 .introduction {
-  background-image: url('./images/shapes.png');
+  background-image: url('./images/mobile-header/shapes.png');
   background-size: 100% 90%;
   background-repeat: no-repeat;
   height: 604px;
@@ -162,15 +162,33 @@ body {
   border-radius: 16px;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
   background: var(--neutrals-n-0, #fff);
+  height: 552px;
 }
 
-.card-image {
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 100%;
+  height: 50%;
 }
 
-.card-image > img {
-  width: 100%;
-  object-fit: cover;
+.image-1 {
+  background-image: url('./images/mobile-images/Snapshoot\ Portfolio.png');
+}
+
+.image-2 {
+  background-image: url('./images/mobile-images/Snapshoot\ Portfolio\ 1.png');
+}
+
+.image-3 {
+  background-image: url('./images/mobile-images/Snapshoot\ Portfolio\ 2.png');
+}
+
+.image-4 {
+  background-image: url('./images/mobile-images/Snapshoot\ Portfolio\ 3.png');
 }
 
 .project-name {
@@ -267,14 +285,16 @@ body {
   margin: 12px 0;
   background-color: white;
 }
+
 .see-project:hover {
   background-color: var(--primary-b-500, #396DF2);
   color: white;
 }
+
 /* About section */
 .about-section {
   padding: 114px 24px;
-  background-image: url('./images/Base\ about\ my\ self.png');
+  background-image: url('./images/mobile-about/Base\ about\ my\ self.png');
   background-repeat: none;
   background-size: 100% 100%;
 }
@@ -365,82 +385,86 @@ ul {
   margin-top: -20px;
   width: 100%;
 }
+
 .contact-block {
   padding-top: 30px;
-  background-image: url('./images/contact.png');
+  background-image: url('./images/mobile-contact/contact.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 779px;
   width: 100%;
 }
+
 .contact-title {
   color: var(--neutrals-n-0, #FFF);
-text-align: center;
-padding-top: 35px;
-
-/* Header / 2 */
-font-size: 40px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 700;
-line-height: 52px;
-
+  text-align: center;
+  padding-top: 35px;
+  font-size: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
 }
+
 .contact-content {
   color: var(--primary-b-50, #EBEBFF);
-text-align: center;
-font-size: 20px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-padding: -10px 20px;
-margin: 0 20px 35px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: -10px 20px;
+  margin: 0 20px 35px;
 }
+
 form {
-  width: 100%;
+  max-width: 1200px;
 }
+
 input {
   display: block;
   border-radius: 8px;
-border: 1px solid #CFD8DC;
-background: #FFF;
-height: 48px;
-margin: 10px 24px;
-padding: 0 16px;
-height: 48px;
+  border: 1px solid #CFD8DC;
+  background: #FFF;
+  height: 48px;
+  margin: 10px 24px;
+  padding: 0 16px;
+  width: calc(100% - 48px);
 }
+
 input::placeholder {
   color: var(--neutral-n-800, #172B4D);
-font-size: 17px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
+  font-size: 17px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
+
 textarea {
-
   border-radius: 8px;
-border: 1px solid #CFD8DC;
-background: #FFF;
-margin: 10px 24px;
-padding: 10px 16px;
-
+  border: 1px solid #CFD8DC;
+  background: #FFF;
+  margin: 10px 24px;
+  padding: 10px 16px;
+  width: calc(100% - 48px);
 }
 
 textarea::placeholder {
   color: var(--neutral-n-800, #172B4D);
-font-size: 17px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
+  font-size: 17px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .get-in-touch {
   background-color: white;
   margin-left: 24px;
 }
+
 @media screen and (min-width: 768px) {
   .bar,
   .menu {
@@ -505,18 +529,17 @@ line-height: 20px;
   }
 
   .intro-section {
-    background-image: url('./images/header\ background\ shape-desktop.png');
+    background-image: url('./images/desktop-header/header\ background\ shape-desktop.png');
     height: 916px;
     background-size: 100% 100%;
   }
 
   .introduction {
     height: 846px;
-    background-image: url('./images/Microverse-Student-Project-1 (2)/Header bg.png');
+    background-image: url('./images/desktop-header/Header bg.png');
     background-size: 100% 90%;
   }
 
-  
   /* Work section */
   .grid-container {
     gap: 142px;
@@ -538,21 +561,36 @@ line-height: 20px;
     flex-direction: row-reverse;
   }
 
-  .card-image {
-    width: 50%;
-  }
-
-  .card-image > img {
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
+  }
+  
+  .image-1 {
+    background-image: url('./images/desktop-images/Snapshoot\ Portfolio\ desktop.png');
+  }
+  
+  .image-2 {
+    background-image: url('./images/desktop-images/Snapshoot\ Portfolio\ desktop\ \(1\).png');
+  }
+  
+  .image-3 {
+    background-image: url('./images/desktop-images/Snapshoot\ Portfolio\ desktop\ 3.png');
+  }
+  
+  .image-4 {
+    background-image: url('./images/desktop-images/Snapshoot\ Portfolio\ desktop\ 4.png');
   }
 
   .card-info {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     padding: 5%;
     gap: 3%;
   }
@@ -570,7 +608,7 @@ line-height: 20px;
   .about-section {
     margin-top: 3%;
     padding: 143px;
-    background-image: url('./images/about\ myself\ -\ background-\ shape-\ desktop.png');
+    background-image: url('./images/desktop-about/about\ myself\ -\ background-\ shape-\ desktop.png');
     background-repeat: none;
     background-size: 100% 100%;
     display: flex;
@@ -596,13 +634,13 @@ line-height: 20px;
 
   /* Contact section */
   .contact {
-    background-image: url('./images/contact-background-desktop.png');
+    background-image: url('./images/desktop-contact/contact-background-desktop.png');
     background-repeat: none;
     background-size: 100% 100%;
   }
+
   .contact-block {
     background-image: none;
-    padding: 5% 25%;
+    padding: 2% 25%;
   }
-
 }
