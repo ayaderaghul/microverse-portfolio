@@ -39,6 +39,7 @@
 ### Key Features <a name="key-features"></a>
 - Navigation bar
 - Introduction section
+- Work section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +61,6 @@ Clone this repository to your desired folder:
 
 No need to install. Just click the `index.html` and it will open with the browser.
 
-
 ### Deployment
 
 You can deploy this project as a static page on free servers such as github pages, render, netlify...
@@ -79,7 +79,6 @@ You can deploy this project as a static page on free servers such as github page
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Work section
 - Contact section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
