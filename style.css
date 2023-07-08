@@ -627,7 +627,6 @@ textarea::placeholder {
   }
 
   .about-lang-list {
-    display: flex;
     flex-direction: row wrap;
     display: inline-block;
   }
@@ -663,7 +662,7 @@ textarea::placeholder {
   textarea {
     border-radius: 2px;
   }
-  
+
   .get-in-touch {
     margin: 0 22%;
   }
