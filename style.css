@@ -17,10 +17,10 @@ body {
 
 /* Introduction section - Header */
 .intro-section {
-  background-image: url('./images/mobile-header/header-background-mobile.png');
   height: 718px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  width: 100%;
+  border-radius: 0 0 0 100px;
+  background-color: white;
 }
 
 .bar {
@@ -86,14 +86,14 @@ body {
 }
 
 .introduction {
-  background-image: url('./images/mobile-header/shapes.png');
-  background-size: 100% 90%;
+  background-image: url('./images/mobile-header/header-shapes\ mobile.svg');
+  background-size: 100% 120%;
   background-repeat: no-repeat;
   height: 604px;
 }
 
 .intro-container {
-  padding: 19% 6%;
+  padding: 18% 6%;
 }
 
 .header {
@@ -121,6 +121,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  margin: 0;
 }
 
 .social-icons {
@@ -294,9 +295,8 @@ body {
 /* About section */
 .about-section {
   padding: 114px 24px;
-  background-image: url('./images/mobile-about/Base\ about\ my\ self.png');
-  background-repeat: none;
-  background-size: 100% 100%;
+  border-radius: 0 100px 0 0;
+  background-color: white;
 }
 
 .title {
@@ -349,8 +349,8 @@ ul {
 }
 
 .about-item > img {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
 }
 
 .about-lang-list {
@@ -388,9 +388,10 @@ ul {
 
 .contact-block {
   padding-top: 30px;
-  background-image: url('./images/mobile-contact/contact.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background: url('./images/mobile-contact/contact\ form\ shapes-mobile.svg') right no-repeat;
+  background-size: 60% 95%;
+  border-radius: 100px 0 0 0;
+  background-color: var(--primary-b-400, #6070ff);
   height: 779px;
   width: 100%;
 }
@@ -529,14 +530,13 @@ textarea::placeholder {
   }
 
   .intro-section {
-    background-image: url('./images/desktop-header/header\ background\ shape-desktop.png');
     height: 916px;
-    background-size: 100% 100%;
+    border-radius: 0 0 0 200px;
   }
 
   .introduction {
     height: 846px;
-    background-image: url('./images/desktop-header/Header bg.png');
+    background-image: url('./images/desktop-header/Header bg.svg');
     background-size: 100% 90%;
   }
 
@@ -608,9 +608,7 @@ textarea::placeholder {
   .about-section {
     margin-top: 3%;
     padding: 143px;
-    background-image: url('./images/desktop-about/about\ myself\ -\ background-\ shape-\ desktop.png');
-    background-repeat: none;
-    background-size: 100% 100%;
+    border-radius: 0 200px 0 0;
     display: flex;
     flex-direction: row wrap;
     gap: 7%;
@@ -628,19 +626,45 @@ textarea::placeholder {
     width: 50%;
   }
 
+  .about-lang-list {
+    display: flex;
+    flex-direction: row wrap;
+    display: inline-block;
+  }
+
+  .about-lang {
+    display: inline-block;
+    width: 25.5%;
+  }
+
   .get-my-resume {
     width: 60%;
   }
 
   /* Contact section */
   .contact {
-    background-image: url('./images/desktop-contact/contact-background-desktop.png');
-    background-repeat: none;
-    background-size: 100% 100%;
+    border-radius: 200px 0 0 0;
+    color: var(--primary-b-400, #6070ff);
+    background-color: white;
+  }
+
+  .contact-background {
+    background-color: white;
   }
 
   .contact-block {
-    background-image: none;
-    padding: 2% 25%;
+    background-image: url('./images/desktop-contact/contact\ form\ background\ shapes.svg');
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    padding: 2.5% 28%;
+  }
+
+  input,
+  textarea {
+    border-radius: 2px;
+  }
+  
+  .get-in-touch {
+    margin: 0 22%;
   }
 }
