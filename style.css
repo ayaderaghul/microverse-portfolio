@@ -627,13 +627,15 @@ textarea::placeholder {
   }
 
   .about-lang-list {
-    flex-direction: row wrap;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
   }
 
   .about-lang {
-    display: inline-block;
     width: 25.5%;
+    display: block;
+    flex-direction: column;
   }
 
   .get-my-resume {
