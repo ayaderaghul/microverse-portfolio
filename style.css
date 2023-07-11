@@ -17,10 +17,10 @@ body {
 
 /* Introduction section - Header */
 .intro-section {
-  background-image: url('./images/Microverse-Student-Project-1/header-background-mobile.png');
   height: 718px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  width: 100%;
+  border-radius: 0 0 0 100px;
+  background-color: white;
 }
 
 .bar {
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-bar {
-  padding: 12px 6%;
+  padding: 30px 6%;
   display: flex;
   flex-direction: row wrap;
   height: 48px;
@@ -72,7 +72,7 @@ body {
   color: var(--primary-b-400, #6070ff);
   height: 100%;
   position: absolute;
-  top: 0;
+  top: 2px;
   right: 6%;
 }
 
@@ -86,14 +86,14 @@ body {
 }
 
 .introduction {
-  background-image: url('./images/shapes.png');
-  background-size: 100% 90%;
+  background-image: url('./images/mobile-header/header-shapes\ mobile.svg');
+  background-size: 100% 120%;
   background-repeat: no-repeat;
   height: 604px;
 }
 
 .intro-container {
-  padding: 19% 6%;
+  padding: 18% 6%;
 }
 
 .header {
@@ -121,6 +121,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  margin: 0;
 }
 
 .social-icons {
@@ -162,15 +163,33 @@ body {
   border-radius: 16px;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
   background: var(--neutrals-n-0, #fff);
+  height: 552px;
 }
 
-.card-image {
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 100%;
+  height: 50%;
 }
 
-.card-image > img {
-  width: 100%;
-  object-fit: cover;
+.image-1 {
+  background-image: url('./images/mobile-images/Snapshoot\ Portfolio.png');
+}
+
+.image-2 {
+  background-image: url('./images/mobile-images/Snapshoot\ Portfolio\ 1.png');
+}
+
+.image-3 {
+  background-image: url('./images/mobile-images/Snapshoot\ Portfolio\ 2.png');
+}
+
+.image-4 {
+  background-image: url('./images/mobile-images/Snapshoot\ Portfolio\ 3.png');
 }
 
 .project-name {
@@ -268,12 +287,17 @@ body {
   background-color: white;
 }
 
+.see-project:focus,
+.see-project:hover {
+  background-color: var(--primary-b-500, #396df2);
+  color: white;
+}
+
 /* About section */
 .about-section {
   padding: 114px 24px;
-  background-image: url('./images/Base\ about\ my\ self.png');
-  background-repeat: none;
-  background-size: 100% 100%;
+  border-radius: 0 100px 0 0;
+  background-color: white;
 }
 
 .title {
@@ -326,8 +350,8 @@ ul {
 }
 
 .about-item > img {
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
 }
 
 .about-lang-list {
@@ -354,6 +378,103 @@ ul {
 
 .active {
   border-bottom: 1px solid var(--neutrals-n-40, #dfe1e6);
+}
+
+/* Contact section */
+.contact {
+  background-color: white;
+  margin-top: -20px;
+  width: 100%;
+}
+
+.contact-block {
+  padding-top: 30px;
+  background: url('./images/mobile-contact/contact\ form\ shapes-mobile.svg') right no-repeat;
+  background-size: 60% 95%;
+  border-radius: 100px 0 0 0;
+  background-color: var(--primary-b-400, #6070ff);
+  height: 800px;
+  width: 100%;
+}
+
+.contact-title {
+  color: var(--neutrals-n-0, #fff);
+  text-align: center;
+  padding-top: 35px;
+  font-size: 40px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.contact-content {
+  color: var(--primary-b-50, #ebebff);
+  text-align: center;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: -10px 20px;
+  margin: 0 20px 35px;
+}
+
+form {
+  max-width: 1200px;
+}
+
+input {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  height: 48px;
+  margin: 10px 24px;
+  padding: 0 16px;
+  width: calc(100% - 48px);
+}
+
+input::placeholder {
+  color: var(--neutral-n-800, #172b4d);
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+textarea {
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  margin: 10px 24px;
+  padding: 10px 16px;
+  width: calc(100% - 48px);
+}
+
+textarea::placeholder {
+  color: var(--neutral-n-800, #172b4d);
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.get-in-touch {
+  background-color: white;
+  margin-left: 24px;
+}
+
+.end-bar {
+  margin: auto;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border: #000;
+  border-radius: 10px;
+  margin-top: -10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -420,14 +541,13 @@ ul {
   }
 
   .intro-section {
-    background-image: url('./images/header\ background\ shape-desktop.png');
     height: 916px;
-    background-size: 100% 100%;
+    border-radius: 0 0 0 200px;
   }
 
   .introduction {
     height: 846px;
-    background-image: url('./images/Microverse-Student-Project-1 (2)/Header bg.png');
+    background-image: url('./images/desktop-header/Header bg.svg');
     background-size: 100% 90%;
   }
 
@@ -452,21 +572,36 @@ ul {
     flex-direction: row-reverse;
   }
 
-  .card-image {
-    width: 50%;
-  }
-
-  .card-image > img {
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
+  }
+
+  .image-1 {
+    background-image: url('./images/desktop-images/Snapshoot\ Portfolio\ desktop.png');
+  }
+
+  .image-2 {
+    background-image: url('./images/desktop-images/Snapshoot\ Portfolio\ desktop\ \(1\).png');
+  }
+
+  .image-3 {
+    background-image: url('./images/desktop-images/Snapshoot\ Portfolio\ desktop\ 3.png');
+  }
+
+  .image-4 {
+    background-image: url('./images/desktop-images/Snapshoot\ Portfolio\ desktop\ 4.png');
   }
 
   .card-info {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     padding: 5%;
     gap: 3%;
   }
@@ -484,9 +619,7 @@ ul {
   .about-section {
     margin-top: 3%;
     padding: 143px;
-    background-image: url('./images/about\ myself\ -\ background-\ shape-\ desktop.png');
-    background-repeat: none;
-    background-size: 100% 100%;
+    border-radius: 0 200px 0 0;
     display: flex;
     flex-direction: row wrap;
     gap: 7%;
@@ -504,7 +637,46 @@ ul {
     width: 50%;
   }
 
+  .about-lang-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .about-lang {
+    width: 25.5%;
+    display: block;
+    flex-direction: column;
+  }
+
   .get-my-resume {
     width: 60%;
+  }
+
+  /* Contact section */
+  .contact {
+    border-radius: 200px 0 0 0;
+    color: var(--primary-b-400, #6070ff);
+    background-color: white;
+  }
+
+  .contact-background {
+    background-color: white;
+  }
+
+  .contact-block {
+    background-image: url('./images/desktop-contact/contact\ form\ background\ shapes.svg');
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    padding: 2.5% 28%;
+  }
+
+  input,
+  textarea {
+    border-radius: 2px;
+  }
+
+  .get-in-touch {
+    margin: 0 22%;
   }
 }

@@ -18,7 +18,6 @@
   - [Install](#install)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -40,6 +39,8 @@
 - Navigation bar
 - Introduction section
 - Work section
+- About me section
+- Contact section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,11 +76,12 @@ You can deploy this project as a static page on free servers such as github page
 - Twitter: [@ayaderaghul](https://twitter.com/ayaderaghul)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/linh-chi-n-371139180/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **brighton mtandi**
 
-## 🔭 Future Features <a name="future-features"></a>
+- GitHub: [brighton0102](htpps://github.com/brighton0102)
+- Twitter: [@brighton_ui](https://twitter.com/brighton_ui)
+- LinkedIn: [brighton](https://www.linkedin.com/in/brighton-mtandi-976615267/)
 
-- Contact section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
