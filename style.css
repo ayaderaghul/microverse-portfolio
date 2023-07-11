@@ -61,6 +61,13 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
+  animation: rotatelogo 1s ease-in-out;
+}
+
+@keyframes rotatelogo {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .logo:hover {
@@ -291,6 +298,7 @@ body {
 .see-project:hover {
   background-color: var(--primary-b-500, #396df2);
   color: white;
+  cursor: pointer;
 }
 
 /* About section */
