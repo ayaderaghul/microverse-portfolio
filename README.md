@@ -76,6 +76,13 @@ You can deploy this project as a static page on free servers such as github page
 - Twitter: [@ayaderaghul](https://twitter.com/ayaderaghul)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/linh-chi-n-371139180/)
 
+👤 **brighton mtandi**
+
+- GitHub: [brighton0102](htpps://github.com/brighton0102)
+- Twitter: [@brighton_ui](https://twitter.com/brighton_ui)
+- LinkedIn: [brighton](https://www.linkedin.com/in/brighton-mtandi-976615267/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
