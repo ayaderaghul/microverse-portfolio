@@ -282,7 +282,8 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
-  width: 43%;
+  width: 30%;
+  min-width: 120px;
   margin: 12px 0;
   background-color: white;
 }
@@ -291,6 +292,7 @@ body {
 .see-project:hover {
   background-color: var(--primary-b-500, #396df2);
   color: white;
+  box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
 }
 
 /* About section */
@@ -606,13 +608,10 @@ textarea::placeholder {
     gap: 3%;
   }
 
-  .see-project {
-    width: 50%;
-  }
-
   .see-project:hover {
     background-color: var(--primary-b-500, #396df2);
     color: white;
+    box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
   }
 
   /* About section */
@@ -626,7 +625,7 @@ textarea::placeholder {
   }
 
   .about-info {
-    width: 50%;
+    width: 40%;
   }
 
   .social-icons {
@@ -650,7 +649,7 @@ textarea::placeholder {
   }
 
   .get-my-resume {
-    width: 60%;
+    min-width: 150px;
   }
 
   /* Contact section */
@@ -671,12 +670,19 @@ textarea::placeholder {
     padding: 2.5% 28%;
   }
 
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
   input,
   textarea {
     border-radius: 2px;
   }
 
   .get-in-touch {
-    margin: 0 22%;
+    width: 20%;
+    min-width: 125px;
+    margin: 7px auto;
   }
 }
