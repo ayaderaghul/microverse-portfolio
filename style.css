@@ -291,6 +291,7 @@ body {
 .see-project:hover {
   background-color: var(--primary-b-500, #396df2);
   color: white;
+  box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
 }
 
 /* About section */
@@ -613,6 +614,7 @@ textarea::placeholder {
   .see-project:hover {
     background-color: var(--primary-b-500, #396df2);
     color: white;
+    box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
   }
 
   /* About section */
