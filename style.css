@@ -561,6 +561,14 @@ textarea::placeholder {
     background-size: 100% 90%;
   }
 
+  .icon img {
+    transition: transform 0.7s;
+  }
+
+  .icon img:hover {
+    transform: translateY(-10px);
+  }
+
   /* Work section */
   .grid-container {
     gap: 142px;
