@@ -9,6 +9,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [Walkthrough](#walk-through)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -28,6 +29,10 @@
 # 📖 Microverse Portfolio <a name="about-project"></a>
 
 **Microverse Portfolio** is a website that initially has a navigation bar and an introduction section.
+
+## Walkthrough <a name="walk-through"></a>
+
+Please watch the project walkthrough in a Loom <a href="https://www.loom.com/share/99ee37a90ecd4d18b3c29728a2800501?sid=a5461fae-a936-43b6-a3d1-0529c51be155">video</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
