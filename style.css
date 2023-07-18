@@ -390,6 +390,11 @@ ul {
   border-bottom: 1px solid var(--neutrals-n-40, #dfe1e6);
 }
 
+.rounded-circle {
+  border-radius: 50%;
+  width: 55px;
+}
+
 /* Contact section */
 .contact {
   background-color: white;
@@ -584,6 +589,10 @@ textarea::placeholder {
     border-radius: 24px;
     height: 496px;
     width: 100%;
+  }
+
+  .modal-body > .card {
+    flex-direction: column;
   }
 
   .card-2 {
