@@ -97,6 +97,7 @@ body {
   background-size: 100% 120%;
   background-repeat: no-repeat;
   height: 604px;
+  margin-top: 80px;
 }
 
 .intro-container {
@@ -480,6 +481,7 @@ textarea::placeholder {
 .get-in-touch {
   background-color: white;
   margin-left: 24px;
+  min-width: 150px;
 }
 
 .end-bar {
