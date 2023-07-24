@@ -43,6 +43,19 @@ body {
   letter-spacing: -0.28px;
 }
 
+.X {
+  display: none;
+  background: white;
+}
+
+.active {
+  display: block;
+}
+
+.inactive {
+  display: none;
+}
+
 .nav-bar {
   padding: 30px 6%;
   display: flex;
