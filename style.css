@@ -53,6 +53,23 @@ body {
   position: relative;
 }
 
+.navbar-nav {
+  padding: 10px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 137.5% */
+  background: var(--theme-1-primary-colors-2, #6070ff);
+  mix-blend-mode: multiply;
+  z-index: 1000;
+}
+
+.item {
+  color: white;
+  padding: 0;
+}
+
 .logo {
   color: var(--primary-b-400, #6070ff);
   text-align: center;
@@ -531,6 +548,10 @@ textarea::placeholder {
     flex-direction: row wrap;
   }
 
+  .navbar-nav {
+    background: white;
+  }
+
   .item {
     list-style: none;
     padding: 0 16px;
@@ -541,6 +562,7 @@ textarea::placeholder {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+    background: white;
   }
 
   .item > a {
