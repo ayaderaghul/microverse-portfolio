@@ -598,6 +598,34 @@ textarea::placeholder {
     cursor: pointer;
   }
 
+  .nav-bar {
+    padding: 30px 6%;
+    display: flex;
+    flex-direction: row wrap;
+    height: 48px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background-color: white;
+  }
+
+  .item {
+    color: var(--neutrals-n-600, #344563);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 133.333% */
+    background-color: white;
+  }
+
   .intro-container {
     padding: 15% 18%;
   }
