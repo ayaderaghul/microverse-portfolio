@@ -20,19 +20,32 @@
         
             <nav class="nav-bar navbar navbar-expand-lg navbar-light bg-white">
                 <a class="logo navbar-brand" href="#">Linh Chi</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button id="changeToggle()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
+                  <!-- <span class="navbar-toggler-icon active"><i class="fa-solid fa-x"></i></span> -->
                 </button>
+
+                <script>    
+                    $('#changeToggle').click(function () {
+                        if($('#changeToggle span').hasClass('active')) {
+                            $('#changeToggle').html('<span class="navbar-toggler-icon"></span>'); 
+                        }
+                        else {      
+                            $('#changeToggle').html('<span class="navbar-toggler-icon active"><i class="fa-solid fa-x"></i></span>'); 
+                        }
+                    });
+                    </script>
+                
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link item" href="#">Portfolio<span class="sr-only">(current)</span></a>
+                      <a class="nav-link item" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link item" href="#">About</a>
+                      <a class="nav-link item" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link item" href="#">Contact</a>
+                      <a class="nav-link item" href="#contact">Contact</a>
                     </li>
                   </ul>
                 </div>
