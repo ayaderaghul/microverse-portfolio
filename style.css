@@ -55,7 +55,7 @@ body {
 
 .navbar-nav {
   padding: 10px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
