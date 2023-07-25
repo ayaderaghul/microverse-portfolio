@@ -304,6 +304,12 @@ body {
   cursor: pointer;
 }
 
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: #fff;
+}
+
 /* About section */
 .about-section {
   padding: 114px 24px;
@@ -589,12 +595,15 @@ textarea::placeholder {
     padding: 24px;
     flex-direction: row;
     border-radius: 24px;
-    height: 496px;
-    width: 100%;
+  }
+
+  .modal {
+    --bs-modal-width: 90%;
   }
 
   .modal-body > .card {
     flex-direction: column;
+    height: 1000px;
   }
 
   .card-2 {
@@ -712,10 +721,4 @@ textarea::placeholder {
     min-width: 125px;
     margin: 7px auto;
   }
-}
-
-.btn-secondary {
-  --bs-btn-color: #fff; 
- --bs-btn-bg: #fff; 
- --bs-btn-border-color: #fff;
 }
