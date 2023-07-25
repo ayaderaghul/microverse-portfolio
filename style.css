@@ -713,3 +713,9 @@ textarea::placeholder {
     margin: 7px auto;
   }
 }
+
+.btn-secondary {
+  --bs-btn-color: #fff; 
+ --bs-btn-bg: #fff; 
+ --bs-btn-border-color: #fff;
+}
