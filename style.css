@@ -43,6 +43,19 @@ body {
   letter-spacing: -0.28px;
 }
 
+.X {
+  display: none;
+  background: white;
+}
+
+.active {
+  display: block;
+}
+
+.inactive {
+  display: none;
+}
+
 .nav-bar {
   padding: 30px 6%;
   display: flex;
@@ -51,6 +64,23 @@ body {
   align-items: center;
   width: 100%;
   position: relative;
+}
+
+.navbar-nav {
+  padding: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 137.5% */
+  background: var(--theme-1-primary-colors-2, #6070ff);
+  mix-blend-mode: multiply;
+  z-index: 1000;
+}
+
+.item {
+  color: white;
+  padding: 0;
 }
 
 .logo {
@@ -387,7 +417,7 @@ ul {
   line-height: 20px;
 }
 
-.active {
+.about-active {
   border-bottom: 1px solid var(--neutrals-n-40, #dfe1e6);
 }
 
@@ -531,6 +561,10 @@ textarea::placeholder {
     flex-direction: row wrap;
   }
 
+  .navbar-nav {
+    background: white;
+  }
+
   .item {
     list-style: none;
     padding: 0 16px;
@@ -541,6 +575,7 @@ textarea::placeholder {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+    background: white;
   }
 
   .item > a {
